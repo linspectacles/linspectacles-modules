@@ -72,8 +72,8 @@ The six module sources are in [`modules/`](modules/), with one version-agnostic 
 From the repository root:
 
 ```bash
-# Create installable portable module ZIPs under dist/portable/
-python3 tools/build_module_zips.py --all
+# Build portable module release ZIPs in dist/portable/
+python3 build_module_zips.py --all
 
 # Prepare RPM inputs (source tarball + spec) without needing rpmbuild
 bash modules/encyclopedia/packaging/rpm/build-rpm.sh --prepare-only
@@ -85,7 +85,7 @@ bash modules/encyclopedia/packaging/rpm/build-rpm.sh --all
 bash metapackage/build-rpm-fedora.sh
 ```
 
-See the individual packaging READMEs and [metapackage/README-RPM.md](metapackage/README-RPM.md). Source builds and release archives should be validated with `python3 tools/validate_repository.py`.
+See the individual packaging READMEs and [metapackage/README-RPM.md](metapackage/README-RPM.md).
 
 ## Project
 
