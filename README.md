@@ -61,7 +61,7 @@ Or install the complete six-module set through the optional metapackage:
 sudo dnf install linspectacles-modules
 ```
 
-See [metapackage/README-RPM.md](metapackage/README-RPM.md) for the package list. The metapackage **requires all six packages**; removing an individual module may also require removing the metapackage. Each module RPM can instead be installed independently without the metapackage.
+See [metapackage/README-RPM.md](metapackage/README-RPM.md) for the package list. The metapackage **recommends all six packages** (weak RPM dependencies). DNF normally installs the complete set, but an individual module can be removed without forcing removal of the metapackage. Installations configured with `install_weak_deps=False` may omit the recommended modules. Each module RPM can also be installed independently.
 
 These commands require an RPM repository already providing the named packages; this source tree does not itself configure a COPR repository. After RPM installation, enable the installed modules in **Configuration → Modules**.
 

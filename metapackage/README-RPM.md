@@ -4,9 +4,9 @@ This kit builds the dependency-only RPM package:
 
 `linspectacles-modules`
 
-It contains **no Hub Module implementation source**. Its purpose is to install all six official Hub Module RPMs together while retaining independent module RPM versions and upgrades. Because the metapackage requires all six, removing one of those modules can also require removing the metapackage.
+It contains **no Hub Module implementation source**. Its purpose is to install all six official Hub Module RPMs together while retaining independent module RPM versions and upgrades. The six module RPMs are **Recommends** (weak dependencies): normally installed together by DNF, but no longer required to keep the metapackage installed. Systems configured to skip weak dependencies may not install them automatically.
 
-## Required Module packages
+## Recommended Module packages
 
 - `linspectacles-module-applet-organizer`
 - `linspectacles-module-boot-environment`
@@ -66,4 +66,4 @@ After COPR publishes it:
 sudo dnf install linspectacles-modules
 ```
 
-DNF should resolve and install the six individual `linspectacles-module-*` packages. If some are already installed, it should install only the missing dependencies.
+With Fedora's normal weak-dependency installation setting, DNF should offer the six individual `linspectacles-module-*` RPMs. Existing installed modules are retained. To verify independent removal, inspect the transaction from `sudo dnf remove linspectacles-module-system-pulse` and confirm that the `linspectacles-modules` metapackage is not a dependent removal; cancel before applying if other unexpected packages are listed.

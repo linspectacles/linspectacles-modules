@@ -2,7 +2,7 @@
 
 `linspectacles-modules` is the optional RPM metapackage for installing all six official [LinSpectacles Hub](https://github.com/linspectacles/linspectacles-hub) Modules together.
 
-The metapackage contains no module implementation or runtime executable. It depends on the following individually versioned packages:
+The metapackage contains no module implementation or runtime executable. It recommends the following individually versioned packages:
 
 - `linspectacles-module-applet-organizer`
 - `linspectacles-module-boot-environment`
@@ -11,7 +11,7 @@ The metapackage contains no module implementation or runtime executable. It depe
 - `linspectacles-module-system-identity`
 - `linspectacles-module-system-pulse`
 
-The individual packages can be installed and upgraded separately. **While the metapackage is installed, all six are required dependencies**; removing any one module may also remove the metapackage.
+The individual packages can be installed, upgraded and removed separately. The metapackage uses **Recommends** (weak dependencies), so DNF normally installs the full collection but removing an individual module does not require removing the metapackage. DNF installations configured with `install_weak_deps=False` may omit recommended modules.
 
 After enabling a package repository that supplies these RPMs, install the set with:
 

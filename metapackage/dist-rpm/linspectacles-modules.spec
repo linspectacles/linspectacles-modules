@@ -1,5 +1,5 @@
 Name:           linspectacles-modules
-Version:        0.0.2
+Version:        0.0.3
 Release:        1%{?dist}
 Summary:        Official LinSpectacles Hub Modules metapackage
 License:        GPL-3.0-or-later
@@ -9,18 +9,18 @@ Packager:       brunonlinespace
 Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 
-Requires:       linspectacles-module-applet-organizer
-Requires:       linspectacles-module-boot-environment
-Requires:       linspectacles-module-encyclopedia
-Requires:       linspectacles-module-privileged-helpers
-Requires:       linspectacles-module-system-identity
-Requires:       linspectacles-module-system-pulse
+Recommends:      linspectacles-module-applet-organizer
+Recommends:      linspectacles-module-boot-environment
+Recommends:      linspectacles-module-encyclopedia
+Recommends:      linspectacles-module-privileged-helpers
+Recommends:      linspectacles-module-system-identity
+Recommends:      linspectacles-module-system-pulse
 
 %description
 linspectacles-modules is the convenience metapackage for installing all
 official LinSpectacles Hub Modules. The Modules remain separate RPM packages
-so each can be installed and upgraded independently. Removing one of the
-required modules may also require removing this metapackage.
+so each can be installed, upgraded and removed independently. The modules
+are recommended by default, not mandatory dependencies of this metapackage.
 
 This package contains no Hub Module implementation source or runtime payload.
 It provides only dependency composition plus its own documentation and license.
@@ -39,6 +39,10 @@ It provides only dependency composition plus its own documentation and license.
 %doc README.md
 
 %changelog
+* Mon Nov 16 2026 brunonlinespace - 0.0.3-1
+- Recommend all six official Hub Modules instead of requiring them.
+- Allow removing an individual Module without requiring metapackage removal.
+- No Hub Module payload or individual module version changes.
 * Sun Nov 15 2026 brunonlinespace - 0.0.2-1
 - Correct the authoritative source repository URL.
 - Generate source archive from maintained documentation during RPM builds.
