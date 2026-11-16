@@ -1,0 +1,20 @@
+# Python caches / test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# RPM / portable module build artifacts
+/dist/
+**/dist/
+/metapackage/dist-rpm/
+*.rpm
+*.src.rpm
+
+# Local editors and OS junk
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "module_api": 4,
+  "id": "privileged-helpers",
+  "name": "Privileged Helpers",
+  "version": "0.0.8",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/linspectacles-modules",
+  "license": "GPL-3.0-or-later",
+  "entrypoint": "module.py",
+  "factory": "create_module",
+  "enabled_by_default": false,
+  "description": "Central read-only overview and explicit install/update/remove management for optional applet privileged helpers declared through Privileged Helper Contract v1, including stale-version and orphaned-helper detection in /usr/libexec."
+}

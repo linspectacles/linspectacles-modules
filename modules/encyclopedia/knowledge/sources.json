@@ -1,0 +1,815 @@
+{
+  "schema": 1,
+  "sources": {
+    "kernel-proc": {
+      "title": "The /proc Filesystem — Linux kernel documentation",
+      "url": "https://docs.kernel.org/filesystems/proc.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-psi": {
+      "title": "PSI — Pressure Stall Information",
+      "url": "https://docs.kernel.org/accounting/psi.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-cgroup": {
+      "title": "Control Group v2",
+      "url": "https://docs.kernel.org/admin-guide/cgroup-v2.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-lsm": {
+      "title": "Linux Security Modules",
+      "url": "https://docs.kernel.org/userspace-api/lsm.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-hwmon": {
+      "title": "Hardware monitoring sysfs interface",
+      "url": "https://docs.kernel.org/hwmon/sysfs-interface.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-thermal": {
+      "title": "Generic Thermal Sysfs driver How To",
+      "url": "https://docs.kernel.org/driver-api/thermal/sysfs-api.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-power": {
+      "title": "Linux power supply class",
+      "url": "https://docs.kernel.org/power/power_supply_class.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-pci": {
+      "title": "Accessing PCI device resources through sysfs",
+      "url": "https://docs.kernel.org/PCI/sysfs-pci.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-block": {
+      "title": "Queue sysfs files",
+      "url": "https://docs.kernel.org/5.15/block/queue-sysfs.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "proc5": {
+      "title": "proc(5)",
+      "url": "https://man7.org/linux/man-pages/man5/proc.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "proc-status": {
+      "title": "proc_pid_status(5)",
+      "url": "https://man7.org/linux/man-pages/man5/proc_pid_status.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "proc-smaps": {
+      "title": "proc_pid_smaps(5)",
+      "url": "https://man7.org/linux/man-pages/man5/proc_pid_smaps.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "proc-fd": {
+      "title": "proc_pid_fd(5)",
+      "url": "https://man7.org/linux/man-pages/man5/proc_pid_fd.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "proc-io": {
+      "title": "proc_pid_io(5)",
+      "url": "https://man7.org/linux/man-pages/man5/proc_pid_io.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "capabilities": {
+      "title": "capabilities(7)",
+      "url": "https://man7.org/linux/man-pages/man7/capabilities.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "namespaces": {
+      "title": "namespaces(7)",
+      "url": "https://man7.org/linux/man-pages/man7/namespaces.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "seccomp": {
+      "title": "seccomp(2)",
+      "url": "https://man7.org/linux/man-pages/man2/seccomp.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "systemd": {
+      "title": "systemd — System and Service Manager",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.html",
+      "publisher": "systemd project"
+    },
+    "systemd-unit": {
+      "title": "systemd.unit",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html",
+      "publisher": "systemd project"
+    },
+    "systemd-service": {
+      "title": "systemd.service",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html",
+      "publisher": "systemd project"
+    },
+    "systemd-exec": {
+      "title": "systemd.exec",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html",
+      "publisher": "systemd project"
+    },
+    "systemd-resource": {
+      "title": "systemd.resource-control",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.resource-control.html",
+      "publisher": "systemd project"
+    },
+    "systemd-analyze": {
+      "title": "systemd-analyze",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd-analyze.html",
+      "publisher": "systemd project"
+    },
+    "systemctl": {
+      "title": "systemctl",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemctl.html",
+      "publisher": "systemd project"
+    },
+    "journalctl": {
+      "title": "journalctl",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/journalctl.html",
+      "publisher": "systemd project"
+    },
+    "selinux": {
+      "title": "selinux(8)",
+      "url": "https://man7.org/linux/man-pages/man8/selinux.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "getenforce": {
+      "title": "getenforce(8)",
+      "url": "https://man7.org/linux/man-pages/man8/getenforce.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "semanage-boolean": {
+      "title": "semanage-boolean(8)",
+      "url": "https://man7.org/linux/man-pages/man8/semanage-boolean.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "semanage-permissive": {
+      "title": "semanage-permissive(8)",
+      "url": "https://man7.org/linux/man-pages/man8/semanage-permissive.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "semanage-login": {
+      "title": "semanage-login(8)",
+      "url": "https://man7.org/linux/man-pages/man8/semanage-login.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "semanage-user": {
+      "title": "semanage-user(8)",
+      "url": "https://man7.org/linux/man-pages/man8/semanage-user.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "semanage-port": {
+      "title": "semanage-port(8)",
+      "url": "https://man7.org/linux/man-pages/man8/semanage-port.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "semanage-fcontext": {
+      "title": "semanage-fcontext(8)",
+      "url": "https://man7.org/linux/man-pages/man8/semanage-fcontext.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "semodule": {
+      "title": "semodule(8)",
+      "url": "https://man7.org/linux/man-pages/man8/semodule.8.html",
+      "publisher": "SELinux userspace / man7"
+    },
+    "ausearch": {
+      "title": "ausearch(8)",
+      "url": "https://man7.org/linux/man-pages/man8/ausearch.8.html",
+      "publisher": "Linux Audit / man7"
+    },
+    "findmnt": {
+      "title": "findmnt(8)",
+      "url": "https://man7.org/linux/man-pages/man8/findmnt.8.html",
+      "publisher": "util-linux / man7"
+    },
+    "mount": {
+      "title": "mount(8)",
+      "url": "https://man7.org/linux/man-pages/man8/mount.8.html",
+      "publisher": "util-linux / man7"
+    },
+    "fstab": {
+      "title": "fstab(5)",
+      "url": "https://man7.org/linux/man-pages/man5/fstab.5.html",
+      "publisher": "util-linux / man7"
+    },
+    "lsblk": {
+      "title": "lsblk(8)",
+      "url": "https://man7.org/linux/man-pages/man8/lsblk.8.html",
+      "publisher": "util-linux / man7"
+    },
+    "ip-address": {
+      "title": "ip-address(8)",
+      "url": "https://man7.org/linux/man-pages/man8/ip-address.8.html",
+      "publisher": "iproute2 / man7"
+    },
+    "ip-route": {
+      "title": "ip-route(8)",
+      "url": "https://man7.org/linux/man-pages/man8/ip-route.8.html",
+      "publisher": "iproute2 / man7"
+    },
+    "ss": {
+      "title": "ss(8)",
+      "url": "https://man7.org/linux/man-pages/man8/ss.8.html",
+      "publisher": "iproute2 / man7"
+    },
+    "resolv": {
+      "title": "resolv.conf(5)",
+      "url": "https://man7.org/linux/man-pages/man5/resolv.conf.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "rpm": {
+      "title": "rpm(8)",
+      "url": "https://rpm.org/docs/6.0.x/man/rpm.8",
+      "publisher": "RPM project"
+    },
+    "rpmkeys": {
+      "title": "rpmkeys(8)",
+      "url": "https://rpm.org/docs/6.1.x/man/rpmkeys.8",
+      "publisher": "RPM project"
+    },
+    "appimage": {
+      "title": "AppImage Architecture",
+      "url": "https://docs.appimage.org/reference/architecture.html",
+      "publisher": "AppImage project"
+    },
+    "appdir": {
+      "title": "AppDir specification",
+      "url": "https://docs.appimage.org/reference/appdir.html",
+      "publisher": "AppImage project"
+    },
+    "flatpak-portals": {
+      "title": "XDG Desktop Portal — Flatpak documentation",
+      "url": "https://docs.flatpak.org/en/latest/portal-api-reference.html",
+      "publisher": "Flatpak project"
+    },
+    "python-metadata": {
+      "title": "importlib.metadata — Accessing package metadata",
+      "url": "https://docs.python.org/3/library/importlib.metadata.html",
+      "publisher": "Python documentation"
+    },
+    "py-core-metadata": {
+      "title": "Core metadata specifications",
+      "url": "https://packaging.python.org/en/latest/specifications/core-metadata/",
+      "publisher": "Python Packaging Authority"
+    },
+    "xdg-desktop": {
+      "title": "Desktop Entry Specification",
+      "url": "https://specifications.freedesktop.org/desktop-entry-spec/latest/",
+      "publisher": "freedesktop.org"
+    },
+    "systemd-journal-fields": {
+      "title": "systemd.journal-fields",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.journal-fields.html"
+    },
+    "systemd-mount": {
+      "title": "systemd.mount",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.mount.html"
+    },
+    "systemd-swap": {
+      "title": "systemd.swap",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.swap.html"
+    },
+    "systemd-socket": {
+      "title": "systemd.socket",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.socket.html"
+    },
+    "systemd-device": {
+      "title": "systemd.device",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.device.html"
+    },
+    "systemd-automount": {
+      "title": "systemd.automount",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.automount.html"
+    },
+    "systemd-timer": {
+      "title": "systemd.timer",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.timer.html"
+    },
+    "systemd-path": {
+      "title": "systemd.path",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.path.html"
+    },
+    "systemd-slice": {
+      "title": "systemd.slice",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.slice.html"
+    },
+    "systemd-scope": {
+      "title": "systemd.scope",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.scope.html"
+    },
+    "systemd-coredump": {
+      "title": "systemd-coredump",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd-coredump.html"
+    },
+    "coredumpctl": {
+      "title": "coredumpctl",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/coredumpctl.html"
+    },
+    "signal7": {
+      "title": "signal(7)",
+      "publisher": "Linux man-pages",
+      "url": "https://man7.org/linux/man-pages/man7/signal.7.html"
+    },
+    "dmesg": {
+      "title": "dmesg(1)",
+      "publisher": "util-linux / man7",
+      "url": "https://man7.org/linux/man-pages/man1/dmesg.1.html"
+    },
+    "kernel-pstore": {
+      "title": "Persistent storage for kernel messages",
+      "publisher": "Linux kernel documentation",
+      "url": "https://docs.kernel.org/admin-guide/ramoops.html"
+    },
+    "dpkg": {
+      "title": "dpkg(1)",
+      "publisher": "Debian / man7",
+      "url": "https://man7.org/linux/man-pages/man1/dpkg.1.html"
+    },
+    "pacman": {
+      "title": "pacman(8)",
+      "publisher": "Arch Linux",
+      "url": "https://man.archlinux.org/man/pacman.8"
+    },
+    "snap": {
+      "title": "Snap documentation",
+      "publisher": "Canonical",
+      "url": "https://snapcraft.io/docs"
+    },
+    "uefi-spec": {
+      "title": "UEFI Specifications",
+      "publisher": "UEFI Forum",
+      "url": "https://uefi.org/specifications"
+    },
+    "boot-loader-spec": {
+      "title": "Boot Loader Specification",
+      "publisher": "UAPI Group",
+      "url": "https://uapi-group.org/specifications/specs/boot_loader_specification/"
+    },
+    "bootctl": {
+      "title": "bootctl",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/bootctl.html"
+    },
+    "systemd-boot": {
+      "title": "systemd-boot",
+      "publisher": "systemd project",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd-boot.html"
+    },
+    "proc-mountinfo": {
+      "title": "proc_pid_mountinfo(5)",
+      "url": "https://man7.org/linux/man-pages/man5/proc_pid_mountinfo.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "statvfs": {
+      "title": "statvfs(3)",
+      "url": "https://man7.org/linux/man-pages/man3/statvfs.3.html",
+      "publisher": "Linux man-pages"
+    },
+    "xfs-fsgeometry": {
+      "title": "ioctl_xfs_fsgeometry(2)",
+      "url": "https://man7.org/linux/man-pages/man2/ioctl_xfs_fsgeometry.2.html",
+      "publisher": "xfsprogs / man7"
+    },
+    "xfs-aggeometry": {
+      "title": "ioctl_xfs_ag_geometry(2)",
+      "url": "https://man7.org/linux/man-pages/man2/ioctl_xfs_ag_geometry.2.html",
+      "publisher": "xfsprogs / man7"
+    },
+    "fsmap": {
+      "title": "ioctl_getfsmap(2)",
+      "url": "https://man7.org/linux/man-pages/man2/ioctl_getfsmap.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "btrfs-ioctl": {
+      "title": "btrfs-ioctl(2)",
+      "url": "https://btrfs.readthedocs.io/en/latest/btrfs-ioctl.html",
+      "publisher": "BTRFS documentation"
+    },
+    "kernel-md": {
+      "title": "RAID arrays — Linux MD documentation",
+      "url": "https://docs.kernel.org/admin-guide/md.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-dm": {
+      "title": "Device Mapper",
+      "url": "https://docs.kernel.org/admin-guide/device-mapper/index.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "loop4": {
+      "title": "loop(4)",
+      "url": "https://man7.org/linux/man-pages/man4/loop.4.html",
+      "publisher": "Linux man-pages"
+    },
+    "zram": {
+      "title": "zram: Compressed RAM-based block devices",
+      "url": "https://docs.kernel.org/admin-guide/blockdev/zram.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "blkid": {
+      "title": "blkid(8)",
+      "url": "https://man7.org/linux/man-pages/man8/blkid.8.html",
+      "publisher": "util-linux / man7"
+    },
+    "xattr7": {
+      "title": "xattr(7)",
+      "url": "https://man7.org/linux/man-pages/man7/xattr.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "acl5": {
+      "title": "acl(5)",
+      "url": "https://man7.org/linux/man-pages/man5/acl.5.html",
+      "publisher": "Linux ACL / man7"
+    },
+    "access2": {
+      "title": "access(2)",
+      "url": "https://man7.org/linux/man-pages/man2/access.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "stat2": {
+      "title": "stat(2)",
+      "url": "https://man7.org/linux/man-pages/man2/stat.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "link2": {
+      "title": "link(2)",
+      "url": "https://man7.org/linux/man-pages/man2/link.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "symlink7": {
+      "title": "symlink(7)",
+      "url": "https://man7.org/linux/man-pages/man7/symlink.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "elf5": {
+      "title": "elf(5)",
+      "url": "https://man7.org/linux/man-pages/man5/elf.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "pipe7": {
+      "title": "pipe(7)",
+      "url": "https://man7.org/linux/man-pages/man7/pipe.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "unix7": {
+      "title": "unix(7)",
+      "url": "https://man7.org/linux/man-pages/man7/unix.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "mq-overview": {
+      "title": "mq_overview(7)",
+      "url": "https://man7.org/linux/man-pages/man7/mq_overview.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "sysvipc": {
+      "title": "sysvipc(7)",
+      "url": "https://man7.org/linux/man-pages/man7/sysvipc.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "proc-sysvipc": {
+      "title": "proc_sysvipc(5)",
+      "url": "https://man7.org/linux/man-pages/man5/proc_sysvipc.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "ioctl-ns": {
+      "title": "NS_GET_USERNS / NS_GET_PARENT — namespace relationship ioctls",
+      "url": "https://man7.org/linux/man-pages/man2/NS_GET_USERNS.2const.html",
+      "publisher": "Linux man-pages"
+    },
+    "systemd-logind": {
+      "title": "systemd-logind.service",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd-logind.service.html",
+      "publisher": "systemd project"
+    },
+    "login1": {
+      "title": "org.freedesktop.login1",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.login1.html",
+      "publisher": "systemd project"
+    },
+    "clock-gettime": {
+      "title": "clock_gettime(2) / clock_getres(2)",
+      "url": "https://man7.org/linux/man-pages/man2/clock_gettime.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "adjtimex": {
+      "title": "adjtimex(2)",
+      "url": "https://man7.org/linux/man-pages/man2/adjtimex.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "rtc4": {
+      "title": "rtc(4)",
+      "url": "https://man7.org/linux/man-pages/man4/rtc.4.html",
+      "publisher": "Linux man-pages"
+    },
+    "timedate1": {
+      "title": "org.freedesktop.timedate1",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.timedate1.html",
+      "publisher": "systemd project"
+    },
+    "timesyncd": {
+      "title": "systemd-timesyncd.service",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.service.html",
+      "publisher": "systemd project"
+    },
+    "timesync1": {
+      "title": "org.freedesktop.timesync1",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.timesync1.html",
+      "publisher": "systemd project"
+    },
+    "xdg-autostart": {
+      "title": "Desktop Application Autostart Specification",
+      "url": "https://specifications.freedesktop.org/autostart-spec/latest/",
+      "publisher": "freedesktop.org"
+    },
+    "crontab5": {
+      "title": "crontab(5)",
+      "url": "https://manpages.debian.org/stable/cron/crontab.5.en.html",
+      "publisher": "Debian manpages / cron"
+    },
+    "cron8": {
+      "title": "cron(8)",
+      "url": "https://manpages.debian.org/stable/cron/cron.8.en.html",
+      "publisher": "Debian manpages / cron"
+    },
+    "anacrontab5": {
+      "title": "anacrontab(5)",
+      "url": "https://manpages.debian.org/stable/anacron/anacrontab.5.en.html",
+      "publisher": "Debian manpages / anacron"
+    },
+    "kernel-initramfs": {
+      "title": "Ramfs, rootfs and initramfs",
+      "url": "https://docs.kernel.org/filesystems/ramfs-rootfs-initramfs.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-numa-abi": {
+      "title": "NUMA node sysfs ABI",
+      "url": "https://docs.kernel.org/admin-guide/abi-stable.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-numastat": {
+      "title": "NUMA policy hit/miss statistics",
+      "url": "https://docs.kernel.org/admin-guide/numastat.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-hugetlb": {
+      "title": "HugeTLB Pages",
+      "url": "https://docs.kernel.org/admin-guide/mm/hugetlbpage.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-hwvuln": {
+      "title": "Hardware vulnerabilities — Linux kernel documentation",
+      "url": "https://docs.kernel.org/admin-guide/hw-vuln/",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-edac": {
+      "title": "Error Detection And Correction (EDAC) Devices",
+      "url": "https://docs.kernel.org/driver-api/edac.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-aer": {
+      "title": "PCI Express Advanced Error Reporting",
+      "url": "https://docs.kernel.org/PCI/pcieaer-howto.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "rlimit2": {
+      "title": "getrlimit(2)",
+      "url": "https://man7.org/linux/man-pages/man2/getrlimit.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "kernel-netstats": {
+      "title": "Interface statistics — Linux networking documentation",
+      "url": "https://docs.kernel.org/networking/statistics.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-inotify": {
+      "title": "inotify(7)",
+      "url": "https://man7.org/linux/man-pages/man7/inotify.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "nist-sha2": {
+      "title": "FIPS PUB 180-4 — Secure Hash Standard (SHS)",
+      "url": "https://csrc.nist.gov/pubs/fips/180-4/upd1/final",
+      "publisher": "NIST"
+    },
+    "dbus-spec": {
+      "title": "D-Bus Specification",
+      "url": "https://dbus.freedesktop.org/doc/dbus-specification.html",
+      "publisher": "D-Bus project / freedesktop.org"
+    },
+    "kernel-genericirq": {
+      "title": "Linux generic IRQ handling",
+      "url": "https://docs.kernel.org/core-api/genericirq.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-irq-affinity": {
+      "title": "SMP IRQ affinity",
+      "url": "https://docs.kernel.org/core-api/irq/irq-affinity.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-sysctl": {
+      "title": "Documentation for /proc/sys",
+      "url": "https://docs.kernel.org/admin-guide/sysctl/index.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "systemd-sysctld": {
+      "title": "sysctl.d — Configure kernel parameters at boot",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/sysctl.d.html",
+      "publisher": "systemd project"
+    },
+    "kernel-cpufreq": {
+      "title": "CPU Performance Scaling",
+      "url": "https://docs.kernel.org/admin-guide/pm/cpufreq.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-powercap": {
+      "title": "Power Capping Framework",
+      "url": "https://docs.kernel.org/power/powercap/powercap.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "systemd-resolved": {
+      "title": "systemd-resolved.service",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.service.html",
+      "publisher": "systemd project"
+    },
+    "resolve1": {
+      "title": "org.freedesktop.resolve1",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.resolve1.html",
+      "publisher": "systemd project"
+    },
+    "nsswitch": {
+      "title": "nsswitch.conf(5)",
+      "url": "https://man7.org/linux/man-pages/man5/nsswitch.conf.5.html",
+      "publisher": "Linux man-pages"
+    },
+    "sched7": {
+      "title": "sched(7) — overview of CPU scheduling",
+      "url": "https://man7.org/linux/man-pages/man7/sched.7.html",
+      "publisher": "Linux man-pages"
+    },
+    "sched-getattr": {
+      "title": "sched_setattr(2) / sched_getattr(2)",
+      "url": "https://man7.org/linux/man-pages/man2/sched_getattr.2.html",
+      "publisher": "Linux man-pages"
+    },
+    "kernel-schedstats": {
+      "title": "Scheduler Statistics",
+      "url": "https://docs.kernel.org/scheduler/sched-stats.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-schedext": {
+      "title": "Extensible Scheduler Class",
+      "url": "https://docs.kernel.org/scheduler/sched-ext.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-sched-deadline": {
+      "title": "Deadline Task Scheduling",
+      "url": "https://docs.kernel.org/scheduler/sched-deadline.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-sysfs": {
+      "title": "sysfs — filesystem for exporting kernel objects",
+      "url": "https://docs.kernel.org/filesystems/sysfs.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-firmware-abi": {
+      "title": "Testing ABI Files — firmware sysfs interfaces",
+      "url": "https://docs.kernel.org/admin-guide/abi-testing-files.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-efivarfs": {
+      "title": "efivarfs — a (U)EFI variable filesystem",
+      "url": "https://docs.kernel.org/filesystems/efivarfs.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "fwupd-docs": {
+      "title": "fwupd documentation",
+      "url": "https://fwupd.github.io/",
+      "publisher": "fwupd project"
+    },
+    "wayland-protocol": {
+      "title": "Wayland Protocol and Model of Operation",
+      "url": "https://wayland.freedesktop.org/docs/book/Protocol.html",
+      "publisher": "Wayland / freedesktop.org"
+    },
+    "xorg-docs": {
+      "title": "X.Org Documentation",
+      "url": "https://www.x.org/Documentation/",
+      "publisher": "X.Org Foundation"
+    },
+    "xrandr-docs": {
+      "title": "XRandR documentation",
+      "url": "https://www.x.org/Projects/XRandR/",
+      "publisher": "X.Org Foundation"
+    },
+    "kernel-drm-uapi": {
+      "title": "DRM userland interfaces",
+      "url": "https://docs.kernel.org/gpu/drm-uapi.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-drm-usage": {
+      "title": "DRM client usage stats",
+      "url": "https://docs.kernel.org/gpu/drm-usage-stats.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-input": {
+      "title": "Linux Input Subsystem — Linux kernel documentation",
+      "url": "https://docs.kernel.org/input/",
+      "publisher": "Linux kernel documentation"
+    },
+    "xdg-portals-config": {
+      "title": "XDG Desktop Portal — Backend selection configuration",
+      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/configuration-file.html",
+      "publisher": "XDG Desktop Portal / freedesktop.org"
+    },
+    "xdg-portals-conf": {
+      "title": "portals.conf — XDG Desktop Portal",
+      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/portals.conf.html",
+      "publisher": "XDG Desktop Portal / freedesktop.org"
+    },
+    "kernel-tpm": {
+      "title": "Trusted Platform Module — Linux kernel documentation",
+      "url": "https://docs.kernel.org/security/tpm/",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-tpm-event-log": {
+      "title": "TPM event log — Linux kernel documentation",
+      "url": "https://docs.kernel.org/security/tpm/tpm_event_log.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "xdg-mime-apps": {
+      "title": "MIME Applications Associations Specification",
+      "url": "https://specifications.freedesktop.org/mime-apps/latest-single/",
+      "publisher": "freedesktop.org"
+    },
+    "kernel-microcode": {
+      "title": "The Linux Microcode Loader",
+      "url": "https://docs.kernel.org/arch/x86/microcode.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-devicetree": {
+      "title": "Devicetree — Linux kernel documentation",
+      "url": "https://docs.kernel.org/devicetree/",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-crypto-api": {
+      "title": "Crypto API — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/crypto/index.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-crypto-architecture": {
+      "title": "Kernel Crypto API Architecture — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/crypto/architecture.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-kvm-api": {
+      "title": "KVM API — Linux kernel documentation",
+      "url": "https://docs.kernel.org/virt/kvm/api.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "kernel-kvm-nested": {
+      "title": "Running nested guests with KVM",
+      "url": "https://docs.kernel.org/virt/kvm/x86/running-nested-guests.html",
+      "publisher": "Linux kernel documentation"
+    },
+    "libvirt-qemu-driver": {
+      "title": "QEMU/KVM hypervisor driver",
+      "url": "https://libvirt.org/drvqemu.html",
+      "publisher": "libvirt project"
+    },
+    "libvirt-connection-uri": {
+      "title": "Connection URIs",
+      "url": "https://libvirt.org/uri.html",
+      "publisher": "libvirt project"
+    },
+    "libvirt-virsh": {
+      "title": "virsh command reference",
+      "url": "https://libvirt.org/manpages/virsh.html",
+      "publisher": "libvirt project"
+    },
+    "libvirt-domain-xml": {
+      "title": "Domain XML format",
+      "url": "https://libvirt.org/formatdomain.html",
+      "publisher": "libvirt project"
+    },
+    "libvirt-snapshot-xml": {
+      "title": "Snapshot XML format",
+      "url": "https://libvirt.org/formatsnapshot.html",
+      "publisher": "libvirt project"
+    },
+    "systemd-detect-virt": {
+      "title": "systemd-detect-virt — detect virtualised environments",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd-detect-virt.html",
+      "publisher": "systemd project"
+    }
+  }
+}

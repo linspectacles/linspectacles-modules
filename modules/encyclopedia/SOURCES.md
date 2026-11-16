@@ -1,0 +1,169 @@
+# Encyclopedia Sources
+
+The 0.0.14 knowledge base uses **162** source records. Links are supplied for reference; the Encyclopedia itself remains offline.
+
+- **The /proc Filesystem — Linux kernel documentation** — Linux kernel documentation — https://docs.kernel.org/filesystems/proc.html
+- **PSI — Pressure Stall Information** — Linux kernel documentation — https://docs.kernel.org/accounting/psi.html
+- **Control Group v2** — Linux kernel documentation — https://docs.kernel.org/admin-guide/cgroup-v2.html
+- **Linux Security Modules** — Linux kernel documentation — https://docs.kernel.org/userspace-api/lsm.html
+- **Hardware monitoring sysfs interface** — Linux kernel documentation — https://docs.kernel.org/hwmon/sysfs-interface.html
+- **Generic Thermal Sysfs driver How To** — Linux kernel documentation — https://docs.kernel.org/driver-api/thermal/sysfs-api.html
+- **Linux power supply class** — Linux kernel documentation — https://docs.kernel.org/power/power_supply_class.html
+- **Accessing PCI device resources through sysfs** — Linux kernel documentation — https://docs.kernel.org/PCI/sysfs-pci.html
+- **Queue sysfs files** — Linux kernel documentation — https://docs.kernel.org/5.15/block/queue-sysfs.html
+- **proc(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/proc.5.html
+- **proc_pid_status(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/proc_pid_status.5.html
+- **proc_pid_smaps(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/proc_pid_smaps.5.html
+- **proc_pid_fd(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/proc_pid_fd.5.html
+- **proc_pid_io(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/proc_pid_io.5.html
+- **capabilities(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/capabilities.7.html
+- **namespaces(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/namespaces.7.html
+- **seccomp(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/seccomp.2.html
+- **systemd — System and Service Manager** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.html
+- **systemd.unit** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html
+- **systemd.service** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html
+- **systemd.exec** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html
+- **systemd.resource-control** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.resource-control.html
+- **systemd-analyze** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd-analyze.html
+- **systemctl** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemctl.html
+- **journalctl** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/journalctl.html
+- **selinux(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/selinux.8.html
+- **getenforce(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/getenforce.8.html
+- **semanage-boolean(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/semanage-boolean.8.html
+- **semanage-permissive(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/semanage-permissive.8.html
+- **semanage-login(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/semanage-login.8.html
+- **semanage-user(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/semanage-user.8.html
+- **semanage-port(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/semanage-port.8.html
+- **semanage-fcontext(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/semanage-fcontext.8.html
+- **semodule(8)** — SELinux userspace / man7 — https://man7.org/linux/man-pages/man8/semodule.8.html
+- **ausearch(8)** — Linux Audit / man7 — https://man7.org/linux/man-pages/man8/ausearch.8.html
+- **findmnt(8)** — util-linux / man7 — https://man7.org/linux/man-pages/man8/findmnt.8.html
+- **mount(8)** — util-linux / man7 — https://man7.org/linux/man-pages/man8/mount.8.html
+- **fstab(5)** — util-linux / man7 — https://man7.org/linux/man-pages/man5/fstab.5.html
+- **lsblk(8)** — util-linux / man7 — https://man7.org/linux/man-pages/man8/lsblk.8.html
+- **ip-address(8)** — iproute2 / man7 — https://man7.org/linux/man-pages/man8/ip-address.8.html
+- **ip-route(8)** — iproute2 / man7 — https://man7.org/linux/man-pages/man8/ip-route.8.html
+- **ss(8)** — iproute2 / man7 — https://man7.org/linux/man-pages/man8/ss.8.html
+- **resolv.conf(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/resolv.conf.5.html
+- **rpm(8)** — RPM project — https://rpm.org/docs/6.0.x/man/rpm.8
+- **rpmkeys(8)** — RPM project — https://rpm.org/docs/6.1.x/man/rpmkeys.8
+- **AppImage Architecture** — AppImage project — https://docs.appimage.org/reference/architecture.html
+- **AppDir specification** — AppImage project — https://docs.appimage.org/reference/appdir.html
+- **XDG Desktop Portal — Flatpak documentation** — Flatpak project — https://docs.flatpak.org/en/latest/portal-api-reference.html
+- **importlib.metadata — Accessing package metadata** — Python documentation — https://docs.python.org/3/library/importlib.metadata.html
+- **Core metadata specifications** — Python Packaging Authority — https://packaging.python.org/en/latest/specifications/core-metadata/
+- **Desktop Entry Specification** — freedesktop.org — https://specifications.freedesktop.org/desktop-entry-spec/latest/
+- **systemd.journal-fields** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.journal-fields.html
+- **systemd.mount** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.mount.html
+- **systemd.swap** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.swap.html
+- **systemd.socket** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.socket.html
+- **systemd.device** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.device.html
+- **systemd.automount** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.automount.html
+- **systemd.timer** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.timer.html
+- **systemd.path** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.path.html
+- **systemd.slice** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.slice.html
+- **systemd.scope** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd.scope.html
+- **systemd-coredump** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd-coredump.html
+- **coredumpctl** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/coredumpctl.html
+- **signal(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/signal.7.html
+- **dmesg(1)** — util-linux / man7 — https://man7.org/linux/man-pages/man1/dmesg.1.html
+- **Persistent storage for kernel messages** — Linux kernel documentation — https://docs.kernel.org/admin-guide/ramoops.html
+- **dpkg(1)** — Debian / man7 — https://man7.org/linux/man-pages/man1/dpkg.1.html
+- **pacman(8)** — Arch Linux — https://man.archlinux.org/man/pacman.8
+- **Snap documentation** — Canonical — https://snapcraft.io/docs
+- **UEFI Specifications** — UEFI Forum — https://uefi.org/specifications
+- **Boot Loader Specification** — UAPI Group — https://uapi-group.org/specifications/specs/boot_loader_specification/
+- **bootctl** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/bootctl.html
+- **systemd-boot** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd-boot.html
+- **proc_pid_mountinfo(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/proc_pid_mountinfo.5.html
+- **statvfs(3)** — Linux man-pages — https://man7.org/linux/man-pages/man3/statvfs.3.html
+- **ioctl_xfs_fsgeometry(2)** — xfsprogs / man7 — https://man7.org/linux/man-pages/man2/ioctl_xfs_fsgeometry.2.html
+- **ioctl_xfs_ag_geometry(2)** — xfsprogs / man7 — https://man7.org/linux/man-pages/man2/ioctl_xfs_ag_geometry.2.html
+- **ioctl_getfsmap(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/ioctl_getfsmap.2.html
+- **btrfs-ioctl(2)** — BTRFS documentation — https://btrfs.readthedocs.io/en/latest/btrfs-ioctl.html
+- **RAID arrays — Linux MD documentation** — Linux kernel documentation — https://docs.kernel.org/admin-guide/md.html
+- **Device Mapper** — Linux kernel documentation — https://docs.kernel.org/admin-guide/device-mapper/index.html
+- **loop(4)** — Linux man-pages — https://man7.org/linux/man-pages/man4/loop.4.html
+- **zram: Compressed RAM-based block devices** — Linux kernel documentation — https://docs.kernel.org/admin-guide/blockdev/zram.html
+- **blkid(8)** — util-linux / man7 — https://man7.org/linux/man-pages/man8/blkid.8.html
+- **xattr(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/xattr.7.html
+- **acl(5)** — Linux ACL / man7 — https://man7.org/linux/man-pages/man5/acl.5.html
+- **access(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/access.2.html
+- **stat(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/stat.2.html
+- **link(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/link.2.html
+- **symlink(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/symlink.7.html
+- **elf(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/elf.5.html
+- **pipe(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/pipe.7.html
+- **unix(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/unix.7.html
+- **mq_overview(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/mq_overview.7.html
+- **sysvipc(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/sysvipc.7.html
+- **proc_sysvipc(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/proc_sysvipc.5.html
+- **NS_GET_USERNS / NS_GET_PARENT — namespace relationship ioctls** — Linux man-pages — https://man7.org/linux/man-pages/man2/NS_GET_USERNS.2const.html
+- **systemd-logind.service** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd-logind.service.html
+- **org.freedesktop.login1** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.login1.html
+- **clock_gettime(2) / clock_getres(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/clock_gettime.2.html
+- **adjtimex(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/adjtimex.2.html
+- **rtc(4)** — Linux man-pages — https://man7.org/linux/man-pages/man4/rtc.4.html
+- **org.freedesktop.timedate1** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.timedate1.html
+- **systemd-timesyncd.service** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.service.html
+- **org.freedesktop.timesync1** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.timesync1.html
+- **Desktop Application Autostart Specification** — freedesktop.org — https://specifications.freedesktop.org/autostart-spec/latest/
+- **crontab(5)** — Debian manpages / cron — https://manpages.debian.org/stable/cron/crontab.5.en.html
+- **cron(8)** — Debian manpages / cron — https://manpages.debian.org/stable/cron/cron.8.en.html
+- **anacrontab(5)** — Debian manpages / anacron — https://manpages.debian.org/stable/anacron/anacrontab.5.en.html
+- **Ramfs, rootfs and initramfs** — Linux kernel documentation — https://docs.kernel.org/filesystems/ramfs-rootfs-initramfs.html
+- **NUMA node sysfs ABI** — Linux kernel documentation — https://docs.kernel.org/admin-guide/abi-stable.html
+- **NUMA policy hit/miss statistics** — Linux kernel documentation — https://docs.kernel.org/admin-guide/numastat.html
+- **HugeTLB Pages** — Linux kernel documentation — https://docs.kernel.org/admin-guide/mm/hugetlbpage.html
+- **Hardware vulnerabilities — Linux kernel documentation** — Linux kernel documentation — https://docs.kernel.org/admin-guide/hw-vuln/
+- **Error Detection And Correction (EDAC) Devices** — Linux kernel documentation — https://docs.kernel.org/driver-api/edac.html
+- **PCI Express Advanced Error Reporting** — Linux kernel documentation — https://docs.kernel.org/PCI/pcieaer-howto.html
+- **getrlimit(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/getrlimit.2.html
+- **Interface statistics — Linux networking documentation** — Linux kernel documentation — https://docs.kernel.org/networking/statistics.html
+- **inotify(7)** — Linux man-pages — https://man7.org/linux/man-pages/man7/inotify.7.html
+- **FIPS PUB 180-4 — Secure Hash Standard (SHS)** — NIST — https://csrc.nist.gov/pubs/fips/180-4/upd1/final
+- **D-Bus Specification** — D-Bus project / freedesktop.org — https://dbus.freedesktop.org/doc/dbus-specification.html
+- **Linux generic IRQ handling** — Linux kernel documentation — https://docs.kernel.org/core-api/genericirq.html
+- **SMP IRQ affinity** — Linux kernel documentation — https://docs.kernel.org/core-api/irq/irq-affinity.html
+- **Documentation for /proc/sys** — Linux kernel documentation — https://docs.kernel.org/admin-guide/sysctl/index.html
+- **sysctl.d — Configure kernel parameters at boot** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/sysctl.d.html
+- **CPU Performance Scaling** — Linux kernel documentation — https://docs.kernel.org/admin-guide/pm/cpufreq.html
+- **Power Capping Framework** — Linux kernel documentation — https://docs.kernel.org/power/powercap/powercap.html
+- **systemd-resolved.service** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.service.html
+- **org.freedesktop.resolve1** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.resolve1.html
+- **nsswitch.conf(5)** — Linux man-pages — https://man7.org/linux/man-pages/man5/nsswitch.conf.5.html
+- **sched(7) — overview of CPU scheduling** — Linux man-pages — https://man7.org/linux/man-pages/man7/sched.7.html
+- **sched_setattr(2) / sched_getattr(2)** — Linux man-pages — https://man7.org/linux/man-pages/man2/sched_getattr.2.html
+- **Scheduler Statistics** — Linux kernel documentation — https://docs.kernel.org/scheduler/sched-stats.html
+- **Extensible Scheduler Class** — Linux kernel documentation — https://docs.kernel.org/scheduler/sched-ext.html
+- **Deadline Task Scheduling** — Linux kernel documentation — https://docs.kernel.org/scheduler/sched-deadline.html
+- **sysfs — filesystem for exporting kernel objects** — Linux kernel documentation — https://docs.kernel.org/filesystems/sysfs.html
+- **Testing ABI Files — firmware sysfs interfaces** — Linux kernel documentation — https://docs.kernel.org/admin-guide/abi-testing-files.html
+- **efivarfs — a (U)EFI variable filesystem** — Linux kernel documentation — https://docs.kernel.org/filesystems/efivarfs.html
+- **fwupd documentation** — fwupd project — https://fwupd.github.io/
+- **Wayland Protocol and Model of Operation** — Wayland / freedesktop.org — https://wayland.freedesktop.org/docs/book/Protocol.html
+- **X.Org Documentation** — X.Org Foundation — https://www.x.org/Documentation/
+- **XRandR documentation** — X.Org Foundation — https://www.x.org/Projects/XRandR/
+- **DRM userland interfaces** — Linux kernel documentation — https://docs.kernel.org/gpu/drm-uapi.html
+- **DRM client usage stats** — Linux kernel documentation — https://docs.kernel.org/gpu/drm-usage-stats.html
+- **Linux Input Subsystem — Linux kernel documentation** — Linux kernel documentation — https://docs.kernel.org/input/
+- **XDG Desktop Portal — Backend selection configuration** — XDG Desktop Portal / freedesktop.org — https://flatpak.github.io/xdg-desktop-portal/docs/configuration-file.html
+- **portals.conf — XDG Desktop Portal** — XDG Desktop Portal / freedesktop.org — https://flatpak.github.io/xdg-desktop-portal/docs/portals.conf.html
+- **Trusted Platform Module — Linux kernel documentation** — Linux kernel documentation — https://docs.kernel.org/security/tpm/
+- **TPM event log — Linux kernel documentation** — Linux kernel documentation — https://docs.kernel.org/security/tpm/tpm_event_log.html
+- **MIME Applications Associations Specification** — freedesktop.org — https://specifications.freedesktop.org/mime-apps/latest-single/
+- **The Linux Microcode Loader** — Linux kernel documentation — https://docs.kernel.org/arch/x86/microcode.html
+- **Devicetree — Linux kernel documentation** — Linux kernel documentation — https://docs.kernel.org/devicetree/
+- **Crypto API — The Linux Kernel documentation** — Linux kernel documentation — https://docs.kernel.org/crypto/index.html
+- **Kernel Crypto API Architecture — The Linux Kernel documentation** — Linux kernel documentation — https://docs.kernel.org/crypto/architecture.html
+
+## Virtualisation Inspector references (0.0.14)
+
+- **KVM API — Linux kernel documentation** — Linux kernel documentation — https://docs.kernel.org/virt/kvm/api.html
+- **Running nested guests with KVM** — Linux kernel documentation — https://docs.kernel.org/virt/kvm/x86/running-nested-guests.html
+- **QEMU/KVM hypervisor driver** — libvirt project — https://libvirt.org/drvqemu.html
+- **Connection URIs** — libvirt project — https://libvirt.org/uri.html
+- **virsh command reference** — libvirt project — https://libvirt.org/manpages/virsh.html
+- **Domain XML format** — libvirt project — https://libvirt.org/formatdomain.html
+- **Snapshot XML format** — libvirt project — https://libvirt.org/formatsnapshot.html
+- **systemd-detect-virt — detect virtualised environments** — systemd project — https://www.freedesktop.org/software/systemd/man/latest/systemd-detect-virt.html

@@ -1,0 +1,43 @@
+{
+  "entries": 665,
+  "added_entries": 29,
+  "categories": 10,
+  "sources": 162,
+  "added_sources": 8,
+  "reviewed": "2026-11-16",
+  "all_source_refs_valid": true,
+  "all_related_refs_valid": true,
+  "unique_entry_ids": true,
+  "module_py_ast_valid": true,
+  "context_term_refs_valid": true,
+  "release": "0.0.14",
+  "knowledge_update": true,
+  "context_update": true,
+  "ui_update": false,
+  "preserved_entries_from_0_0_9": 636,
+  "preserved_sources_from_0_0_9": 154,
+  "all_0_0_9_entries_preserved": true,
+  "all_0_0_9_sources_preserved": true,
+  "context_navigation_update": {
+    "old": "Show All Terms / Showing All Terms",
+    "new": "← Encyclopedia footer action before Close",
+    "restores_full_encyclopedia_state": true
+  },
+  "packaging_update": false,
+  "preserved_entries_from_0_0_10": 636,
+  "preserved_sources_from_0_0_10": 154,
+  "all_0_0_10_entries_preserved": true,
+  "all_0_0_10_sources_preserved": true,
+  "preserved_entries_from_0_0_13": 636,
+  "preserved_sources_from_0_0_13": 154,
+  "all_0_0_13_entries_preserved": true,
+  "all_0_0_13_sources_preserved": true,
+  "virtualisation_inspector": {
+    "applet_manifest_id": "linspectacles-virtualisation-inspector",
+    "hub_context_id": "virtualisation-inspector",
+    "applet_version": "0.0.3",
+    "entries_added": 29,
+    "context_terms": 31,
+    "new_sources": 8
+  }
+}

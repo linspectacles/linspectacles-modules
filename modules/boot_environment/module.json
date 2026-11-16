@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "module_api": 1,
+  "id": "boot-environment",
+  "name": "Boot Environment",
+  "version": "0.0.5",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/linspectacles-modules",
+  "license": "GPL-3.0-or-later",
+  "entrypoint": "module.py",
+  "factory": "create_module",
+  "enabled_by_default": false,
+  "description": "Optional Dashboard context for the currently running boot: boot ID, kernel, architecture, command line, firmware interface, Secure Boot, and concise boot-loader identity."
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "module_api": 7,
+  "id": "applet-organizer",
+  "name": "Applet Organizer",
+  "version": "0.0.16",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/linspectacles-modules",
+  "license": "GPL-3.0-or-later",
+  "entrypoint": "module.py",
+  "factory": "create_module",
+  "enabled_by_default": false,
+  "description": "Optional offline layered applet organization for LinSpectacles Hub: instance-aware discovery with logical Favourite/Layer organization, grouped navigation and compact Hub State context."
+}

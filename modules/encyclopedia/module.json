@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "module_api": 1,
+  "id": "encyclopedia",
+  "name": "Encyclopedia & What's This?",
+  "version": "0.0.14",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/linspectacles-modules",
+  "license": "GPL-3.0-or-later",
+  "entrypoint": "module.py",
+  "factory": "create_module",
+  "enabled_by_default": false,
+  "description": "Offline, source-linked Linux encyclopedia and contextual What's This? help for LinSpectacles."
+}
